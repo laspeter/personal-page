@@ -1,4 +1,33 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
+defaultContentLanguage = "pt-br"
 title = "My New Hugo Site"
 theme = "hallo"
+
+[Author]
+    name = "Meu nome é Laís"
+
+[params]
+    greeting = "Olá!"
+
+    [[params.links]]
+        icon = "youtube"
+        title = "Youtube"
+        url = "https://www.youtube.com/channel/UCtrk8bGrJ4FM3XtHDW182GA"
+    [[params.links]]
+        icon = "vimeo"
+        title = "Vimeo"
+        url = "https://github.com/"
+    [[params.links]]
+        icon = "linkedin"
+        title = "Linkedin"
+        url = "https://github.com/"
+    [[params.links]]
+        icon = "behance"
+        title = "Behance"
+        url = "https://github.com/"
+    
+    [params.colors]
+        background = "#EADBC4"
+        foreground = "#D88482"
+        hover = "#6A482F"
