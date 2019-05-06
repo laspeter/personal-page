@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 defaultContentLanguage = "pt-br"
-title = "My New Hugo Site"
+title = "Laís Peterlevitz"
 theme = "hallo"
 
 [Author]
